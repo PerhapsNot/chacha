@@ -10,10 +10,11 @@
 
     
 <script>
-function iqiyiTpct_track(){
-    //document.getElementById("demo").innerHTML=Date();
-    iqiyiTpct.track(10107);
-}
+    if (window.iqiyi || window.QIYI) {
+        window.location.href = "http://www.baidu.com"
+    } else {
+        window.localtion.href = "http://www.iqiyi.com"
+    }
 </script>
     
 <h1>测试js布局的网页10107</h1>
